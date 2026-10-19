@@ -1,0 +1,64 @@
+# --- Secrets / identifiants ---
+.env
+*.env.local
+secrets.*
+*.pem
+*.key
+tokens.*
+.github-secrets
+
+# --- Python (simulation, notebooks) ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+
+# --- Node / JS (software frontend & backend) ---
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.next/
+.nuxt/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# --- Environnements / éditeurs ---
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+Thumbs.db
+.DS_Store
+
+# --- Fabriquation / CAO (binaires générés) ---
+*.gbr
+*.drl
+*.zip
+!assets/**/*.zip
+*.stl
+*.obj
+*.step
+*.stp
+*.3mf
+*.FCStd1
+*.blend1
+
+# --- BUILDS générés ---
+out/
+release/
+
+# --- Logs ---
+*.log
+logs/
